@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference android:title="@string/serverhost_title" android:summary="@string/serverhost_summary" android:defaultValue="ubigroup.dyndns.org" android:key="@string/serverhost_key"></EditTextPreference>
+<EditTextPreference android:title="@string/detectbywifiport_title" android:summary="@string/detectbywifiport_summary" android:defaultValue="10003" android:key="@string/detectbywifiport_key"></EditTextPreference>
+<EditTextPreference android:title="@string/sendmapport_title" android:summary="@string/sendmapport_summary" android:defaultValue="10002" android:key="@string/sendmapport_key"></EditTextPreference>
+<EditTextPreference android:title="@string/callobjectport_title" android:summary="@string/callobjectport_summary" android:defaultValue="10002" android:key="@string/callobjectport_key"></EditTextPreference>
+<EditTextPreference android:title="@string/callfunctionport_title" android:summary="@string/callfunctionport_summary" android:defaultValue="10002" android:key="@string/callfunctionport_key"></EditTextPreference>
+<EditTextPreference android:title="@string/detectbygpsport_title" android:summary="@string/detectbygpsport_summary" android:defaultValue="10003" android:key="@string/detectbygpsport_key"></EditTextPreference>
+<EditTextPreference android:title="@string/directory_map_data_title" android:summary="@string/directory_map_data_summary" android:defaultValue="LocationMapData/" android:key="@string/directory_map_data_key"></EditTextPreference>
+<EditTextPreference android:title="@string/number_entries_title" android:summary="@string/number_entries_summary" android:defaultValue="10" android:key="@string/number_entries_key"></EditTextPreference>
+<EditTextPreference android:title="@string/scanning_time_title" android:summary="@string/scanning_time_summary" android:defaultValue="15" android:key="@string/scanning_time_key"></EditTextPreference>
+<EditTextPreference android:title="@string/frequency_title" android:summary="@string/frequency_summary" android:defaultValue="1" android:key="@string/frequency_key"></EditTextPreference>
+
+</PreferenceScreen>

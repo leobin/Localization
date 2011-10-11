@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+    <scanning-time>100</scanning-time>
+    <scanning-frequency>0.5</scanning-frequency>
+    <number-of-scanning-point>15</number-of-scanning-point>
+    <data-folder>C:/tmp</data-folder>
+    <is-auto-upload>false</is-auto-upload>
+    <algorithm-package>locationaware.wifi.algorithm</algorithm-package>
+    <datatype-package>locationaware.wifi.mapdata</datatype-package>
+    <jar-for-class>WifiLocationAware_17.jar</jar-for-class>
+    <datatypepanel-package>com.localization.datatype.panel</datatypepanel-package>
+    <server-host>ubigroup.dyndns.org</server-host>
+    <localize-port>10003</localize-port>
+    <submit-data-port>10002</submit-data-port>
+    <call-server-object-port>10002</call-server-object-port>
+    <call-server-function-port>10002</call-server-function-port>
+</preferences>

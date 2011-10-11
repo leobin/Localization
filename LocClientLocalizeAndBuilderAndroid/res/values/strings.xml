@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Localization Application</string>
+	<string name="main_title">Localization Application</string>
+	
+	<string name="login_label">Login</string>
+	<string name="browse_location_label">Browse Location</string>
+	<string name="build_map_label">Build Map Data</string>
+	<string name="browse_map_label">Browse Map Data</string>
+	<string name="detect_location_label">Detect Location</string>
+	<string name="exit_label">Exit</string>
+
+	<string name="collect_wifi_label">Collect Wifi Map Data</string>
+	<string name="collect_gps_label">Collect GPS Map Data</string>
+	
+	<string name="settings_label">Settings...</string>
+	<string name="settings_title">Settings</string>
+	<string name="settings_shortcut">s</string>
+	
+<!-- 	<string name="url_database_key">databaseURL</string> -->
+<!-- 	<string name="url_database_title">DATABASE URL</string> -->
+<!-- 	<string name="url_database_summary"></string> -->
+<!-- 	<string name="driver_key">driver</string> -->
+<!-- 	<string name="driver_title">DRIVER DATABASE CONNECTOR</string> -->
+<!-- 	<string name="driver_summary"></string> -->
+<!-- 	<string name="username_key">databaseUserName</string> -->
+<!-- 	<string name="username_title">USERNAME</string> -->
+<!-- 	<string name="username_summary">User name used to login to database</string> -->
+<!-- 	<string name="password_key">databasePassword</string> -->
+<!-- 	<string name="password_title">PASSWORD</string> -->
+<!-- 	<string name="password_summary">Password used to login to database</string> -->
+
+	<string name="serverhost_key">serverHost</string>
+	<string name="serverhost_title">SERVERHOST</string>
+	<string name="serverhost_summary">Server</string>
+	
+	<string name="detectbywifiport_key">detectWifiPort</string>
+	<string name="detectbywifiport_title">PORT WIFI DETECT</string>
+	<string name="detectbywifiport_summary"></string>
+
+	<string name="sendmapport_key">sendMapPort</string>
+	<string name="sendmapport_title">PORT SEND MAP DATA</string>
+	<string name="sendmapport_summary"></string>
+	
+	<string name="detectbygpsport_key">detectGPSPort</string>
+	<string name="detectbygpsport_title">PORT GPS DETECT</string>
+	<string name="detectbygpsport_summary"></string>
+	
+	<string name="callfunctionport_key">callFunctionPort</string>
+	<string name="callfunctionport_title">CALL SERVER FUNCTION PORT</string>
+	<string name="callfunctionport_summary"></string>
+	
+	<string name="callobjectport_key">callObjectPort</string>
+	<string name="callobjectport_title">CALL SERVER OBJECT PORT</string>
+	<string name="callobjectport_summary"></string>
+	
+	<string name="directory_map_data_key">DirMapData</string>
+	<string name="directory_map_data_title">MAPDATA DIRECTORY</string>
+	<string name="directory_map_data_summary">This is directory used to store map data.</string>
+
+	<string name="number_entries_key">numberEntries</string>
+	<string name="number_entries_title">NUMBER ENTRIES</string>
+	<string name="number_entries_summary"></string>
+
+	<string name="scanning_time_key">scanningTime</string>
+	<string name="scanning_time_title">SCANNING TIME</string>
+	<string name="scanning_time_summary"></string>
+
+	<string name="frequency_key">frequency</string>
+	<string name="frequency_title">FREQUENCY</string>
+	<string name="frequency_summary"></string>
+	
+</resources>

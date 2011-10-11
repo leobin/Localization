@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+<persistence-unit name="Localization Database Management" transaction-type="RESOURCE_LOCAL">
+		<class>localization.data.entity.AlgorithmDatabaseObject</class>
+		<class>localization.data.entity.DataTypeDatabaseObject</class>
+		<class>localization.data.entity.LocationDatabaseObject</class>
+		<class>localization.data.entity.MacAddressDatabaseObject</class>
+		<class>localization.data.entity.PointDatabaseObject</class>
+		<class>localization.data.entity.UserDatabaseObject</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/localization_database_v4"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value=""/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

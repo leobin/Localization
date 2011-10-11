@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="15dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/collect_gps_label"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="10dip">
+			<TableRow android:layout_marginBottom="5dip">
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User Name: " />
+
+				<TextView android:id="@+id/collectgps_username"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" android:layout_marginRight="10dip" />
+
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Location Name: " />
+
+				<TextView android:id="@+id/collectgps_locationname"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="10dip">
+
+			<TableRow android:layout_marginBottom="5dip">
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="List Point: " />
+
+				<Spinner android:id="@+id/collectgps_list_points"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="25sp" android:layout_gravity="center" />
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="PointID: " />
+
+				<TextView android:id="@+id/collectgps_pointID"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" android:layout_marginRight="10dip" />
+
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Point Order: " />
+
+				<TextView android:id="@+id/collectgps_pointorder"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="GPS: " />
+
+				<TextView android:id="@+id/collectgps_gps_coordinate"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="12sp" android:text="" />
+			</TableRow>
+
+		</TableLayout>
+
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center">
+
+			<TableRow>
+				<Button android:id="@+id/collectgps_get_gps_coordinate_button"
+					android:text="Get GPSCoordinate" android:textSize="18sp"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+
+				<Button android:id="@+id/collectgps_finish_button"
+					android:text="Finish" android:textSize="18sp"
+					android:layout_gravity="center" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</LinearLayout>

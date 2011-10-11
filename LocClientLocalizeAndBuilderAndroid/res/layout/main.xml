@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="10dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/main_title"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" />
+		
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity = "center">
+			
+			<Button android:id="@+id/main_login_button" android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/login_label" />
+				
+			<Button android:id="@+id/main_browse_location_button"
+				android:layout_gravity="center" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/browse_location_label" />
+				
+			<Button android:id="@+id/main_detect_location_button"
+				android:layout_gravity="center" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/detect_location_label" />
+				
+			<Button android:id="@+id/main_exit_button" android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/exit_label" />
+		</TableLayout>
+	
+	</LinearLayout>
+</LinearLayout>

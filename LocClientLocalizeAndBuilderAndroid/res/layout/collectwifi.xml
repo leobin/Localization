@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="15dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/collect_wifi_label"
+			android:layout_gravity="center" android:layout_marginBottom="15dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TableRow android:layout_marginBottom="5dip">
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User Name: " />
+
+				<TextView android:id="@+id/collectwifi_username"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Location Name: " />
+
+				<TextView android:id="@+id/collectwifi_locationname"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Time: " />
+
+				<EditText android:text="10" android:id="@+id/collectwifi_mintime_edittext"
+					android:layout_width="150dip" android:layout_height="wrap_content" />
+
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Entries: " />
+
+				<EditText android:text="15" android:id="@+id/collectwifi_minentries_edittext"
+					android:layout_width="150dip" android:layout_height="wrap_content" />
+
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="130dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Frequency: " />
+
+				<EditText android:text="1" android:id="@+id/collectwifi_frequency_edittext"
+					android:layout_width="150dip" android:layout_height="wrap_content" />
+			</TableRow>
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginBottom="10dip"
+			android:layout_marginTop="25dip" android:layout_gravity="center">
+
+			<TableRow>
+				
+				<Button android:id="@+id/collectwifi_start_scan_button"
+					android:text="Start Scan" android:textSize="18sp"
+					android:layout_gravity="center" android:layout_width="140dip"/>
+
+				<Button android:id="@+id/collectwifi_end_scan_button"
+					android:text="End Scan" android:textSize="18sp" 
+					android:layout_gravity="center" android:layout_width="140dip"/>
+					
+			</TableRow>
+			
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TableRow android:layout_marginBottom="10dip">
+
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Number of entries: " />
+
+				<TextView android:id="@+id/collectwifi_number_of_entries"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="0" />
+
+			</TableRow>
+
+			<TableRow>
+
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Elapse time: " />
+
+				<TextView android:id="@+id/collectwifi_elapse_time"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="0 seconds" />
+
+			</TableRow>
+
+		</TableLayout>
+
+	</LinearLayout>
+</LinearLayout>

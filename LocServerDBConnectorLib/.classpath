@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySqlLib">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/eclipselink-jpa-modelgen_2.1.1.v20100817-r8050.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence_2.0.1.v201006031150.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LocClientServerGeneralLib"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/eclipselink-jpa-modelgen_2.1.1.v20100817-r8050.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/eclipselink.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/javax.persistence_2.0.1.v201006031150.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/mysql-connector-java-5.1.13-bin.jar!/" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="EclipseLink" />
+        <datasource-mapping>
+          <factory-entry name="Localization Database Management" value="79d5e169-c71f-4f22-83b6-37f127e806a9" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-1.6" jdkType="JavaSDK" />
+    <orderEntry type="library" name="org.eclipse.jst.j2ee.internal.module.container" level="application" />
+    <orderEntry type="library" name="EclipseLink" level="project" />
+    <orderEntry type="library" name="MySqlLib" level="project" />
+    <orderEntry type="module-library">
+      <library name="eclipselink-jpa-modelgen_2.1.1.v20100817-r8050.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/eclipselink-jpa-modelgen_2.1.1.v20100817-r8050.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="eclipselink.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/eclipselink.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.persistence_2.0.1.v201006031150.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/javax.persistence_2.0.1.v201006031150.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.13-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-5.1.13-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

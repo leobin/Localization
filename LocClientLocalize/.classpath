@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/AndroidAPI.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink-jpa-modelgen_2.1.1.v20100817-r8050.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="lib/javax.annotation.jar"/>
+	<classpathentry kind="lib" path="lib/javax.ejb.jar"/>
+	<classpathentry kind="lib" path="lib/javax.jms.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence_2.0.1.v201006031150.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence.jar"/>
+	<classpathentry kind="lib" path="lib/javax.resource.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jsp.jar"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="lib/javax.transaction.jar"/>
+	<classpathentry kind="lib" path="lib/LinuxAPI.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="lib/OSIndependentAPI.jar"/>
+	<classpathentry kind="lib" path="lib/placelab.jar"/>
+	<classpathentry kind="lib" path="lib/PlaceLabAPI.jar"/>
+	<classpathentry kind="lib" path="lib/Win7&amp;VistaAPI.jar"/>
+	<classpathentry kind="lib" path="lib/LocClientDBConnectorLib.jar"/>
+	<classpathentry kind="lib" path="lib/LocClientGeneralLib.jar"/>
+	<classpathentry kind="lib" path="lib/LocClientServerGeneralLib.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

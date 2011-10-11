@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="10dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/browse_map_label"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="left"
+			android:layout_marginBottom="10dip">
+
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User Name: " />
+
+				<TextView android:id="@+id/browsemap_username"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Location Name: " />
+
+				<TextView android:id="@+id/browsemap_locationname"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+		</TableLayout>
+
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="left"
+			android:layout_marginBottom="10dip">
+
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Map Type: " />
+
+				<Spinner android:id="@+id/browsemap_list_mapdatatypes"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="25sp" android:layout_gravity="center" />
+
+			</TableRow>
+
+		</TableLayout>
+
+		<ScrollView android:layout_width="fill_parent"
+			android:layout_height="150dip">
+			<EditText android:id="@+id/browsemap_map_content"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:text="" android:scrollbarAlwaysDrawVerticalTrack="true"
+				android:scrollbarAlwaysDrawHorizontalTrack="true"
+				android:isScrollContainer="true" android:scrollbarStyle="insideOverlay"
+				android:editable="false" android:cursorVisible="false" />
+		</ScrollView>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center"
+			android:layout_marginBottom="10dip" android:layout_marginTop="25dip">
+
+			<TableRow>
+				<Button android:id="@+id/browsemap_upload_button"
+					android:text="Upload Map" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textSize="18sp" />
+
+				<Button android:id="@+id/browsemap_calibrate_button"
+					android:text="Calibrate" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textSize="18sp" />
+
+			</TableRow>
+
+
+		</TableLayout>
+
+
+	</LinearLayout>
+</LinearLayout>

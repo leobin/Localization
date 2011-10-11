@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="10dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/login_label"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center">
+
+			<TableRow>
+				<TextView android:layout_width="100dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User name: " />
+
+				<EditText android:text="" android:id="@+id/login_username_edittext"
+					android:layout_width="150dip" android:layout_height="wrap_content" />
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="100dip"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Password: " />
+
+				<EditText android:text="" android:id="@+id/login_password_edittext"
+					android:layout_width="150dip" android:layout_height="wrap_content" />
+			</TableRow>
+
+		</TableLayout>
+
+		<Button android:id="@+id/login_login_button" android:text="Login"
+			android:layout_width="100dip" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:textSize="18sp" 
+			android:layout_marginTop="25dip" />
+
+	</LinearLayout>
+
+</LinearLayout>

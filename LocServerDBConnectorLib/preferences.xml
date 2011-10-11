@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+    <url>jdbc:mysql://ubigroup.dyndns.org:3306/localization_database_v4</url>
+    <username>root</username>
+    <password>utleo321</password>
+    <driver>com.mysql.jdbc.Driver</driver>
+</preferences>

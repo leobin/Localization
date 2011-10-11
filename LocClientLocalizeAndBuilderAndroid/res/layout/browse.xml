@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="10dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/browse_location_label"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="left"
+			android:layout_marginBottom="20dip">
+
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User Name: " />
+
+				<TextView android:id="@+id/browse_username"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+		</TableLayout>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="18sp"
+			android:text="Location name: " />
+
+		<Spinner android:id="@+id/browse_list_locations"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="25sp" android:layout_gravity="center" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center"
+			android:layout_marginTop="20dip">
+
+				<Button android:id="@+id/browse_build_map_data_button"
+					android:text="@string/build_map_label" android:textSize="18sp"
+					android:layout_gravity="center" android:layout_width="wrap_content" />
+
+				<Button android:id="@+id/browse_browse_map_data_button"
+					android:text="@string/browse_map_label" android:textSize="18sp"
+					android:layout_gravity="center" android:layout_width="wrap_content" />
+		</TableLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

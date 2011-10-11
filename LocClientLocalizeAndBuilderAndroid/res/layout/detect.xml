@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/background"
+	android:padding="10dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="5dip"
+		android:paddingRight="5dip">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/detect_location_label"
+			android:layout_gravity="center" android:layout_marginBottom="25dip"
+			android:textSize="24.5sp" android:textColor="#ffffff00" />
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="left">
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Detect by: " />
+
+				<Spinner android:id="@+id/detect_list_types"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="25sp" android:layout_gravity="center" />
+
+				<CheckBox android:text="Convert" android:id="@+id/detect_convert"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_marginBottom="20dip"
+			android:layout_marginTop="10dip" android:layout_gravity="center">
+
+			<Button android:id="@+id/detect_start_localize_button"
+				android:text="Start localize" android:textSize="18sp"
+				android:layout_gravity="center" android:layout_width="140dip" />
+
+			<Button android:id="@+id/detect_stop_localize_button"
+				android:text="Stop localize" android:textSize="18sp"
+				android:layout_gravity="center" android:layout_width="140dip" />
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_marginBottom="20dip"
+			android:layout_marginTop="10dip" android:layout_gravity="center">
+
+			<TableRow>
+
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Result: " android:textColor="#ffff0000" />
+
+				<TextView android:id="@+id/detect_result_time" 
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" android:textColor="#ffff0000">
+				</TextView>
+
+			</TableRow>
+
+		</TableLayout>
+
+		<TableLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_marginBottom="10dip"
+			android:layout_marginTop="10dip" android:layout_gravity="center">
+
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Location Name: " />
+
+				<TextView android:id="@+id/detect_locationname"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Root Location: " />
+
+				<TextView android:id="@+id/detect_rootlocation"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow android:layout_marginBottom="10dip">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="User Name: " />
+
+				<TextView android:id="@+id/detect_userName"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+
+			<TableRow>
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="18sp"
+					android:text="Calibrate: " />
+
+				<TextView android:id="@+id/detect_calibrateStatus"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="18sp" android:text="" />
+			</TableRow>
+		</TableLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
