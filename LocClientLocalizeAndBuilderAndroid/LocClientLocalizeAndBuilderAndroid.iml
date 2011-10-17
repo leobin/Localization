@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="EclipseModuleManager" forced_jdk="true">
-    <libelement value="jar://$MODULE_DIR$/lib/AndroidAPI.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/OSIndependentAPI.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/LocClientGeneralLib.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/LocClientServerGeneralLib.jar!/" />
-    <conelement value="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK" />
-    <src_description expected_position="1">
-      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
-      <src_folder value="file://$MODULE_DIR$/gen" expected_position="1" />
-    </src_description>
-  </component>
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
@@ -33,8 +22,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/bin" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
@@ -42,42 +30,23 @@
     </content>
     <orderEntry type="jdk" jdkName="Android 2.2 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library name="AndroidAPI.jar">
+    <orderEntry type="library" name="lib7" level="project" />
+    <orderEntry type="library" name="lib6" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="lib5" level="project" />
+    <orderEntry type="library" name="lib8" level="project" />
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/AndroidAPI.jar!/" />
+          <root url="jar://$MODULE_DIR$/../LocClientGeneralLib/lib/android.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="OSIndependentAPI.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/OSIndependentAPI.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="LocClientGeneralLib.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/LocClientGeneralLib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="LocClientServerGeneralLib.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/LocClientServerGeneralLib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module" module-name="LocClientServerGeneralLib" />
+    <orderEntry type="module" module-name="LocClientGeneralLib" />
   </component>
 </module>
 

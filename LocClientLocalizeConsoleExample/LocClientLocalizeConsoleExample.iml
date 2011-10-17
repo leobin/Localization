@@ -1,68 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/lib/OSIndependentAPI.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/Win7&amp;VistaAPI.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/LocClientDBConnectorLib.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/LocClientGeneralLib.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/lib/LocClientServerGeneralLib.jar!/" />
-    <src_description expected_position="0">
-      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
-    </src_description>
-  </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/bin" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="library" name="lib7" level="project" />
+    <orderEntry type="library" name="lib6" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="lib5" level="project" />
+    <orderEntry type="library" name="lib8" level="project" />
     <orderEntry type="module-library">
-      <library name="OSIndependentAPI.jar">
+      <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/OSIndependentAPI.jar!/" />
+          <root url="jar://$MODULE_DIR$/../LocClientGeneralLib/lib/android.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Win7&amp;VistaAPI.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/Win7&amp;VistaAPI.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="LocClientDBConnectorLib.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/LocClientDBConnectorLib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="LocClientGeneralLib.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/LocClientGeneralLib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="LocClientServerGeneralLib.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/LocClientServerGeneralLib.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="LocClientLocalize" />
+    <orderEntry type="module" module-name="LocClientDbConnectorLib" />
+    <orderEntry type="module" module-name="LocClientLocalizeAndBuilderAndroid" />
+    <orderEntry type="module" module-name="LocServerDBConnectorLib" />
+    <orderEntry type="module" module-name="LocClientServerGeneralLib" />
+    <orderEntry type="module" module-name="LocClientMapBuilder" />
+    <orderEntry type="module" module-name="LocClientGeneralLib" />
   </component>
 </module>
 
