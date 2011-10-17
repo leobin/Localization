@@ -9,7 +9,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		MacOsScanningAPI api = new MacOsScanningAPI();
 		api.scan();
-
+        System.out.println("test function");
 	}
 
 }
